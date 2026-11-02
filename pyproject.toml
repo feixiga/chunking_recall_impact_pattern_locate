@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "feixiga-trainplat_jd193"
+name = "feixiga-chunking_recall_impact_pattern_locate"
 version = "0.1.0"
 description = "用一组明示的正则规则扫描输入，报告大模型训练平台工程师·分块策略对召回的影响相关的命中行与片段"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://feixiga.github.io"
-Repository = "https://github.com/feixiga/trainplat_jd193"
-Issues = "https://github.com/feixiga/trainplat_jd193/issues"
+Repository = "https://github.com/feixiga/chunking_recall_impact_pattern_locate"
+Issues = "https://github.com/feixiga/chunking_recall_impact_pattern_locate/issues"
 
 [project.scripts]
-trainplat_jd193 = "trainplat_jd193:main"
+chunking_recall_impact_pattern_locate = "chunking_recall_impact_pattern_locate:main"
 
 [tool.setuptools]
-py-modules = ["trainplat_jd193"]
+py-modules = ["chunking_recall_impact_pattern_locate"]
